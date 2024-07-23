@@ -31,7 +31,7 @@ function App() {
         </div>
         <MiddelVideo />
         <div className='change_background'>
-          <h2 ref={signupRef}>SignUp with Wissar</h2>
+          <h2 ref={signupRef}>SignIn with Wissar</h2>
           <p>Booking artists has never been this easy.</p>
         </div>        
         <Registration />

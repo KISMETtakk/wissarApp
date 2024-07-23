@@ -27,7 +27,7 @@ const Registration = () => {
                     </div>
                     <div className="col-md-6 right">
                         <div className="input-box">
-                            <header>Create account</header>
+                            <header>Login Into Your Account</header>
                             <form onSubmit={handleSignUp}>
                                 <div className="input-field">
                                     <input
@@ -53,11 +53,11 @@ const Registration = () => {
                                     <label htmlFor="pass">Password</label>
                                 </div>
                                 <div className="input-field">
-                                    <input type="submit" className="submit" value="Sign Up" />
+                                    <input type="submit" className="submit" value="Login" />
                                 </div>
                             </form>
                             <div className="signin">
-                                <span>Already have an account? <a href="#">Log in here</a></span>
+                                <span>Already have an account? <a href="#">Sign up here</a></span>
                             </div>
                         </div>
                     </div>
